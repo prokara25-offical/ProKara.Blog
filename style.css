@@ -1,0 +1,107 @@
+/* GENEL AYARLAR */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #0b0b0b;
+    color: #f2f2f2;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    scroll-behavior: smooth;
+  }
+  
+  /* ÜST KISIM (HEADER) */
+  header {
+    background: linear-gradient(180deg, #000000, #1a1a1a);
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 1px solid #333;
+  }
+  
+  .logo {
+    width: 120px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  header h1 {
+    font-size: 2.5em;
+    color: #e74c3c;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+  }
+  
+  /* NAV MENÜ */
+  nav {
+    margin-top: 10px;
+  }
+  
+  nav a {
+    color: #f2f2f2;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #e74c3c;
+  }
+  
+  /* ANA KISIMLAR */
+  main {
+    padding: 40px 15%;
+    text-align: center;
+  }
+  
+  h2 {
+    color: #e74c3c;
+    font-size: 1.8em;
+    margin-bottom: 15px;
+  }
+  
+  .cover {
+    width: 300px;
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0 0 15px rgba(231, 76, 60, 0.4);
+  }
+  
+  p {
+    font-size: 1.1em;
+    color: #ddd;
+  }
+  
+  /* FOOTER */
+  footer {
+    background: #111;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+    color: #aaa;
+    border-top: 1px solid #222;
+  }
+  
+  /* YUKARI ÇIK BUTONU */
+  #scrollTopBtn {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    background: #e74c3c;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    display: none;
+    transition: opacity 0.3s;
+  }
+  
+  #scrollTopBtn:hover {
+    opacity: 0.8;
+  }
+  
